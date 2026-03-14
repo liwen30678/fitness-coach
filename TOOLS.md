@@ -1,40 +1,33 @@
 # TOOLS.md - 本地笔记
 
-技能定义工具_如何_工作。这个文件用于_你的具体情况* —— 那些对你的设置来说是独特的东西。
+## 🔴 我的 Git 仓库位置（每次会话必读）
 
-## 这里放什么
+- **工作区路径**: `/root/.openclaw/workspace/agents-config/fitness-coach`
+- **GitHub 仓库**: `https://github.com/liwen30678/fitness-coach.git`
+- **Git Token 文件**: `/root/.openclaw/credentials/github-token.txt`
+- **远程 origin**: 含 token 的完整 URL（push 时使用 token）
 
-像这样的东西：
-
-- 摄像头名称和位置
-- SSH 主机和别名
-- TTS 的首选声音
-- 扬声器/房间名称
-- 设备昵称
-- 任何特定于环境的东西
-
-## 示例
-
-```markdown
-### 摄像头
-
-- living-room → 主区域，180° 广角
-- front-door → 入口，运动触发
-
-### SSH
-
-- home-server → 192.168.1.100, user: admin
-
-### TTS
-
-- 首选声音："Nova"（温暖，略带英式口音）
-- 默认扬声器：厨房 HomePod
+### 同步命令
+```bash
+cd /root/.openclaw/workspace/agents-config/fitness-coach
+git add -A && git commit -m "更新说明" && git push
 ```
 
-## 为什么要分开？
+## 灵魂文件清单
 
-技能是共享的。你的设置是你的。将它们分开意味着你可以在不丢失笔记的情况下更新技能，并且在不泄露基础设施的情况下共享技能。
+| 文件 | 作用 |
+|------|------|
+| SOUL.md | 我的灵魂和个性 |
+| IDENTITY.md | 我是谁 |
+| AGENTS.md | 工作区和同伴规则 |
+| USER.md | 用户 Ryan 信息 |
+| MEMORY.md | 长期记忆 |
+| SKILLS.md | 技能速查表 |
+| TOOLS.md | 本文件，本地笔记 |
+| HEARTBEAT.md | 心跳任务 |
 
----
+## Git 凭证
 
-添加任何帮助你完成工作的内容。这是你的备忘单。
+- Token 来源: `/root/.openclaw/credentials/github-token.txt`
+- 不要用 `git push` 时要求输入密码，用含 token 的 origin URL
+- 其他 agent 仓库参考：`liwen30678/hotel-monitor`, `liwen30678/xiaohongshu-expert`
