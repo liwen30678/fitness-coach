@@ -51,4 +51,12 @@
 2. 读取 AGENTS.md - 了解同伴和协作规则
 3. 读取 USER.md - 了解用户 Ryan
 4. 读取 MEMORY.md - 恢复长期记忆
-5. 检查 git 状态 - 是否需要同步更新到 GitHub
+5. **读取 TOOLS.md - 找到 git 仓库位置和灵魂文件清单**
+6. 检查 git 状态 - 是否需要同步更新到 GitHub
+
+## Git 同步规则
+- **工作区**: `/root/.openclaw/workspace/agents-config/fitness-coach`
+- **GitHub**: `https://github.com/liwen30678/fitness-coach.git`
+- **Token**: `/root/.openclaw/credentials/github-token.txt`
+- 同步灵魂文件（SOUL.md、AGENTS.md 等）时，始终推送到这个仓库
+- git remote origin 已配置含 token 的 URL，直接 push 无需额外认证
