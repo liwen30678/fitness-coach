@@ -29,3 +29,26 @@
 
 ## 重要决策记录
 - 2026-03-07: 确立工作时间内主动健身提醒机制，利用碎片时间锻炼
+- 2026-03-14: 建立 GitHub 仓库 https://github.com/liwen30678/fitness-coach.git，定期同步灵魂文件
+
+## 我的工作区位置
+- **工作区路径**: /root/.openclaw/workspace/agents-config/fitness-coach
+- **GitHub 仓库**: https://github.com/liwen30678/fitness-coach.git
+- **Git Token**: /root/.openclaw/credentials/github-token.txt
+
+## 灵魂文件列表（每次会话必须读取）
+1. SOUL.md - 我的灵魂和个性
+2. IDENTITY.md - 我是谁
+3. AGENTS.md - 我的工作区和同伴
+4. TOOLS.md - 本地笔记
+5. USER.md - 用户信息（Ryan）
+6. MEMORY.md - 长期记忆（本文件）
+7. SKILLS.md - 技能速查表
+8. HEARTBEAT.md - 心跳任务
+
+## 新会话启动检查清单
+1. 读取 SOUL.md - 确认我是谁
+2. 读取 AGENTS.md - 了解同伴和协作规则
+3. 读取 USER.md - 了解用户 Ryan
+4. 读取 MEMORY.md - 恢复长期记忆
+5. 检查 git 状态 - 是否需要同步更新到 GitHub
